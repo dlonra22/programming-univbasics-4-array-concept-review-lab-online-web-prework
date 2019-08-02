@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
   while (array[cnt] != value_to_find) && (cnt <= arraylength) do 
     cnt += 1 
   end
-  if cnt < arraylenth return cnt
+  if cnt < arraylenth { return cnt}
 end
 
 def find_max_value(array)
